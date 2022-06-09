@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA295FB428522F7500ACE8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA295FB328522F7500ACE8DD /* AppDelegate.swift */; };
+		AA295FB628522F7500ACE8DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA295FB528522F7500ACE8DD /* SceneDelegate.swift */; };
+		AA295FB828522F7500ACE8DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA295FB728522F7500ACE8DD /* ViewController.swift */; };
+		AA295FBB28522F7500ACE8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA295FB928522F7500ACE8DD /* Main.storyboard */; };
+		AA295FBD28522F7700ACE8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA295FBC28522F7700ACE8DD /* Assets.xcassets */; };
+		AA295FC028522F7700ACE8DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA295FBE28522F7700ACE8DD /* LaunchScreen.storyboard */; };
+		AA295FCB28522F7700ACE8DD /* swfit_geolocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA295FCA28522F7700ACE8DD /* swfit_geolocationTests.swift */; };
+		AA295FD528522F7700ACE8DD /* swfit_geolocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA295FD428522F7700ACE8DD /* swfit_geolocationUITests.swift */; };
+		AA295FD728522F7700ACE8DD /* swfit_geolocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA295FD628522F7700ACE8DD /* swfit_geolocationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA295FC728522F7700ACE8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA295FA828522F7500ACE8DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA295FAF28522F7500ACE8DD;
+			remoteInfo = "swfit-geolocation";
+		};
+		AA295FD128522F7700ACE8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA295FA828522F7500ACE8DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA295FAF28522F7500ACE8DD;
+			remoteInfo = "swfit-geolocation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA295FB028522F7500ACE8DD /* swfit-geolocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swfit-geolocation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA295FB328522F7500ACE8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA295FB528522F7500ACE8DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA295FB728522F7500ACE8DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA295FBA28522F7500ACE8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA295FBC28522F7700ACE8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA295FBF28522F7700ACE8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA295FC128522F7700ACE8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA295FC628522F7700ACE8DD /* swfit-geolocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-geolocationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA295FCA28522F7700ACE8DD /* swfit_geolocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_geolocationTests.swift; sourceTree = "<group>"; };
+		AA295FD028522F7700ACE8DD /* swfit-geolocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-geolocationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA295FD428522F7700ACE8DD /* swfit_geolocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_geolocationUITests.swift; sourceTree = "<group>"; };
+		AA295FD628522F7700ACE8DD /* swfit_geolocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_geolocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA295FAD28522F7500ACE8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA295FC328522F7700ACE8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA295FCD28522F7700ACE8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA295FA728522F7500ACE8DD = {
+			isa = PBXGroup;
+			children = (
+				AA295FB228522F7500ACE8DD /* swfit-geolocation */,
+				AA295FC928522F7700ACE8DD /* swfit-geolocationTests */,
+				AA295FD328522F7700ACE8DD /* swfit-geolocationUITests */,
+				AA295FB128522F7500ACE8DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA295FB128522F7500ACE8DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA295FB028522F7500ACE8DD /* swfit-geolocation.app */,
+				AA295FC628522F7700ACE8DD /* swfit-geolocationTests.xctest */,
+				AA295FD028522F7700ACE8DD /* swfit-geolocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA295FB228522F7500ACE8DD /* swfit-geolocation */ = {
+			isa = PBXGroup;
+			children = (
+				AA295FB328522F7500ACE8DD /* AppDelegate.swift */,
+				AA295FB528522F7500ACE8DD /* SceneDelegate.swift */,
+				AA295FB728522F7500ACE8DD /* ViewController.swift */,
+				AA295FB928522F7500ACE8DD /* Main.storyboard */,
+				AA295FBC28522F7700ACE8DD /* Assets.xcassets */,
+				AA295FBE28522F7700ACE8DD /* LaunchScreen.storyboard */,
+				AA295FC128522F7700ACE8DD /* Info.plist */,
+			);
+			path = "swfit-geolocation";
+			sourceTree = "<group>";
+		};
+		AA295FC928522F7700ACE8DD /* swfit-geolocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA295FCA28522F7700ACE8DD /* swfit_geolocationTests.swift */,
+			);
+			path = "swfit-geolocationTests";
+			sourceTree = "<group>";
+		};
+		AA295FD328522F7700ACE8DD /* swfit-geolocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA295FD428522F7700ACE8DD /* swfit_geolocationUITests.swift */,
+				AA295FD628522F7700ACE8DD /* swfit_geolocationUITestsLaunchTests.swift */,
+			);
+			path = "swfit-geolocationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA295FAF28522F7500ACE8DD /* swfit-geolocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA295FDA28522F7700ACE8DD /* Build configuration list for PBXNativeTarget "swfit-geolocation" */;
+			buildPhases = (
+				AA295FAC28522F7500ACE8DD /* Sources */,
+				AA295FAD28522F7500ACE8DD /* Frameworks */,
+				AA295FAE28522F7500ACE8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swfit-geolocation";
+			productName = "swfit-geolocation";
+			productReference = AA295FB028522F7500ACE8DD /* swfit-geolocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA295FC528522F7700ACE8DD /* swfit-geolocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA295FDD28522F7700ACE8DD /* Build configuration list for PBXNativeTarget "swfit-geolocationTests" */;
+			buildPhases = (
+				AA295FC228522F7700ACE8DD /* Sources */,
+				AA295FC328522F7700ACE8DD /* Frameworks */,
+				AA295FC428522F7700ACE8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA295FC828522F7700ACE8DD /* PBXTargetDependency */,
+			);
+			name = "swfit-geolocationTests";
+			productName = "swfit-geolocationTests";
+			productReference = AA295FC628522F7700ACE8DD /* swfit-geolocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA295FCF28522F7700ACE8DD /* swfit-geolocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA295FE028522F7700ACE8DD /* Build configuration list for PBXNativeTarget "swfit-geolocationUITests" */;
+			buildPhases = (
+				AA295FCC28522F7700ACE8DD /* Sources */,
+				AA295FCD28522F7700ACE8DD /* Frameworks */,
+				AA295FCE28522F7700ACE8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA295FD228522F7700ACE8DD /* PBXTargetDependency */,
+			);
+			name = "swfit-geolocationUITests";
+			productName = "swfit-geolocationUITests";
+			productReference = AA295FD028522F7700ACE8DD /* swfit-geolocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA295FA828522F7500ACE8DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AA295FAF28522F7500ACE8DD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AA295FC528522F7700ACE8DD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AA295FAF28522F7500ACE8DD;
+					};
+					AA295FCF28522F7700ACE8DD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AA295FAF28522F7500ACE8DD;
+					};
+				};
+			};
+			buildConfigurationList = AA295FAB28522F7500ACE8DD /* Build configuration list for PBXProject "swfit-geolocation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA295FA728522F7500ACE8DD;
+			productRefGroup = AA295FB128522F7500ACE8DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA295FAF28522F7500ACE8DD /* swfit-geolocation */,
+				AA295FC528522F7700ACE8DD /* swfit-geolocationTests */,
+				AA295FCF28522F7700ACE8DD /* swfit-geolocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA295FAE28522F7500ACE8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA295FC028522F7700ACE8DD /* LaunchScreen.storyboard in Resources */,
+				AA295FBD28522F7700ACE8DD /* Assets.xcassets in Resources */,
+				AA295FBB28522F7500ACE8DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA295FC428522F7700ACE8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA295FCE28522F7700ACE8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA295FAC28522F7500ACE8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA295FB828522F7500ACE8DD /* ViewController.swift in Sources */,
+				AA295FB428522F7500ACE8DD /* AppDelegate.swift in Sources */,
+				AA295FB628522F7500ACE8DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA295FC228522F7700ACE8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA295FCB28522F7700ACE8DD /* swfit_geolocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA295FCC28522F7700ACE8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA295FD528522F7700ACE8DD /* swfit_geolocationUITests.swift in Sources */,
+				AA295FD728522F7700ACE8DD /* swfit_geolocationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA295FC828522F7700ACE8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA295FAF28522F7500ACE8DD /* swfit-geolocation */;
+			targetProxy = AA295FC728522F7700ACE8DD /* PBXContainerItemProxy */;
+		};
+		AA295FD228522F7700ACE8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA295FAF28522F7500ACE8DD /* swfit-geolocation */;
+			targetProxy = AA295FD128522F7700ACE8DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA295FB928522F7500ACE8DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA295FBA28522F7500ACE8DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA295FBE28522F7700ACE8DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA295FBF28522F7700ACE8DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA295FD828522F7700ACE8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA295FD928522F7700ACE8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA295FDB28522F7700ACE8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78AMALTG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swfit-geolocation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lionx.com.br.swfit-geolocation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA295FDC28522F7700ACE8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78AMALTG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swfit-geolocation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lionx.com.br.swfit-geolocation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA295FDE28522F7700ACE8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78AMALTG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lionx.com.br.swfit-geolocationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swfit-geolocation.app/swfit-geolocation";
+			};
+			name = Debug;
+		};
+		AA295FDF28522F7700ACE8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78AMALTG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lionx.com.br.swfit-geolocationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swfit-geolocation.app/swfit-geolocation";
+			};
+			name = Release;
+		};
+		AA295FE128522F7700ACE8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78AMALTG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lionx.com.br.swfit-geolocationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swfit-geolocation";
+			};
+			name = Debug;
+		};
+		AA295FE228522F7700ACE8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78AMALTG33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lionx.com.br.swfit-geolocationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swfit-geolocation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA295FAB28522F7500ACE8DD /* Build configuration list for PBXProject "swfit-geolocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA295FD828522F7700ACE8DD /* Debug */,
+				AA295FD928522F7700ACE8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA295FDA28522F7700ACE8DD /* Build configuration list for PBXNativeTarget "swfit-geolocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA295FDB28522F7700ACE8DD /* Debug */,
+				AA295FDC28522F7700ACE8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA295FDD28522F7700ACE8DD /* Build configuration list for PBXNativeTarget "swfit-geolocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA295FDE28522F7700ACE8DD /* Debug */,
+				AA295FDF28522F7700ACE8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA295FE028522F7700ACE8DD /* Build configuration list for PBXNativeTarget "swfit-geolocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA295FE128522F7700ACE8DD /* Debug */,
+				AA295FE228522F7700ACE8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA295FA828522F7500ACE8DD /* Project object */;
+}
